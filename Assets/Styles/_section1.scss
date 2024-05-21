@@ -1,0 +1,22 @@
+.section1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .section1-container {
+    background: #082c36;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+  }
+
+  .headerleft {
+    img {
+      width: 30%;
+      border-radius: 100px;
+      clip-path: circle(40% at 50% 50%);
+    }
+  }
+}
